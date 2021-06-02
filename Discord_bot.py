@@ -22,17 +22,6 @@ async def on_message(message):
     # we do not want the bot to reply to itself
     if message.author == client.user:
         return
-#bot doesnt take kindly to foul language
-    # if "fuck" in message.content.lower():#bot is constantly checking every message it recieves
-    #     await channel.send("{.author} HEY WATCH YOUR F***IGN LANGUAGE".format(message))#code so it can reply or send message
-    # elif "fck" in message.content.lower():
-    #     await channel.send("{.author} HEY WATCH YOUR F***IGN LANGUAGE".format(message))
-    # elif "fk" in message.content.lower():
-    #     await channel.send("{.author} HEY WATCH YOUR F***IGN LANGUAGE".format(message))
-    # elif "fucking" in message.content.lower():
-    #     await channel.send("{.author} HEY WATCH YOUR F***IGN LANGUAGE".format(message))
-    # elif "fking" in message.content.lower():
-    #     await channel.send("{.author} HEY WATCH YOUR F***IGN LANGUAGE".format(message))
 
 
 
